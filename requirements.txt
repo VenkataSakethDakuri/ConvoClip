@@ -1,0 +1,5 @@
+opencv-python==4.8.1.78
+numpy==1.26.0
+moviepy==1.0.3
+tqdm==4.66.1
+yt-dlp==2023.12.30 
