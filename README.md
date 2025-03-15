@@ -92,7 +92,7 @@ For longer videos (>30 minutes):
 - For higher precision:
 - Increase the sampling rate (e.g., 1.0 or 2.0) for more accurate segment boundaries
 - You may need to modify the face detection parameters in the code for better face detection
-- For videos with quick cuts or brief conversations:
+For videos with quick cuts or brief conversations:
 - Increase the sampling rate (e.g., 1.0 or higher)
 - Decrease the minimum duration (e.g., 1.0 or 2.0)
 - For panel discussions or interviews:
