@@ -87,14 +87,14 @@ The script creates the following directories:
 
 ## Tuning Recommendations
 For longer videos (>30 minutes):
--Reduce the sampling rate (e.g., 0.25 or 0.1) to speed up processing
--Increase the minimum duration (e.g., 5.0 or 10.0) to focus on significant conversation segments
--For higher precision:
--Increase the sampling rate (e.g., 1.0 or 2.0) for more accurate segment boundaries
--You may need to modify the face detection parameters in the code for better face detection
--For videos with quick cuts or brief conversations:
--Increase the sampling rate (e.g., 1.0 or higher)
--Decrease the minimum duration (e.g., 1.0 or 2.0)
--For panel discussions or interviews:
--The default parameters usually work well
+- Reduce the sampling rate (e.g., 0.25 or 0.1) to speed up processing
+- Increase the minimum duration (e.g., 5.0 or 10.0) to focus on significant conversation segments
+- For higher precision:
+- Increase the sampling rate (e.g., 1.0 or 2.0) for more accurate segment boundaries
+- You may need to modify the face detection parameters in the code for better face detection
+- For videos with quick cuts or brief conversations:
+- Increase the sampling rate (e.g., 1.0 or higher)
+- Decrease the minimum duration (e.g., 1.0 or 2.0)
+- For panel discussions or interviews:
+- The default parameters usually work well
 -Consider increasing the minimum duration if you want to focus on extended discussions
